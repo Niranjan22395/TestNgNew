@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-30T04:51:35Z" name="Suite" finished-at="2023-10-30T04:51:35Z" duration-ms="222">
+    <groups>
+      <group name="regression">
+        <method signature="NewTestTestNG.TesNg2()[pri:2, instance:TestNGG.NewTestTestNG@424e1977]" name="TesNg2" class="TestNGG.NewTestTestNG"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="NewTestTestNG.TesNg1()[pri:1, instance:TestNGG.NewTestTestNG@424e1977]" name="TesNg1" class="TestNGG.NewTestTestNG"/>
+        <method signature="NewTestTestNG.TesNg3()[pri:3, instance:TestNGG.NewTestTestNG@424e1977]" name="TesNg3" class="TestNGG.NewTestTestNG"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-10-30T04:51:35Z" name="Common" finished-at="2023-10-30T04:51:35Z" duration-ms="29">
+      <class name="Common.NewTest">
+        <test-method signature="fetws()[pri:0, instance:Common.NewTest@4988d8b8]" started-at="2023-10-30T10:21:35Z" name="fetws" finished-at="2023-10-30T10:21:35Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetws -->
+      </class> <!-- Common.NewTest -->
+    </test> <!-- Common -->
+    <test started-at="2023-10-30T04:51:35Z" name="Module1" finished-at="2023-10-30T04:51:35Z" duration-ms="22">
+      <class name="Module1.SampleTest2">
+        <test-method signature="NewTest()[pri:0, instance:Module1.SampleTest2@4e3958e7]" started-at="2023-10-30T10:21:35Z" name="NewTest" finished-at="2023-10-30T10:21:35Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewTest -->
+        <test-method signature="Newtest2()[pri:0, instance:Module1.SampleTest2@4e3958e7]" started-at="2023-10-30T10:21:35Z" name="Newtest2" finished-at="2023-10-30T10:21:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Newtest2 -->
+      </class> <!-- Module1.SampleTest2 -->
+      <class name="Module1.Test1">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Module1.Test1@6ab778a]" started-at="2023-10-30T10:21:35Z" name="beforeTest" finished-at="2023-10-30T10:21:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Module1.Test1@6ab778a]" started-at="2023-10-30T10:21:35Z" name="beforeClass" finished-at="2023-10-30T10:21:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Module1.Test1@6ab778a]" started-at="2023-10-30T10:21:35Z" name="beforeMethod" finished-at="2023-10-30T10:21:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Test()[pri:0, instance:Module1.Test1@6ab778a]" started-at="2023-10-30T10:21:35Z" name="Test" finished-at="2023-10-30T10:21:35Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Module1.Test1@6ab778a]" started-at="2023-10-30T10:21:35Z" name="afterMethod" finished-at="2023-10-30T10:21:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Module1.Test1@6ab778a]" started-at="2023-10-30T10:21:35Z" name="beforeMethod" finished-at="2023-10-30T10:21:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f()[pri:0, instance:Module1.Test1@6ab778a]" started-at="2023-10-30T10:21:35Z" name="f" finished-at="2023-10-30T10:21:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Module1.Test1@6ab778a]" started-at="2023-10-30T10:21:35Z" name="afterMethod" finished-at="2023-10-30T10:21:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Module1.Test1@6ab778a]" started-at="2023-10-30T10:21:35Z" name="afterClass" finished-at="2023-10-30T10:21:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Module1.Test1@6ab778a]" started-at="2023-10-30T10:21:35Z" name="afterTest" finished-at="2023-10-30T10:21:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Module1.Test1 -->
+    </test> <!-- Module1 -->
+    <test started-at="2023-10-30T04:51:35Z" name="TestNGG" finished-at="2023-10-30T04:51:35Z" duration-ms="7">
+      <class name="TestNGG.NewTestTestNG">
+        <test-method signature="TesNg1()[pri:1, instance:TestNGG.NewTestTestNG@424e1977]" started-at="2023-10-30T10:21:35Z" name="TesNg1" finished-at="2023-10-30T10:21:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TesNg1 -->
+        <test-method signature="TesNg2()[pri:2, instance:TestNGG.NewTestTestNG@424e1977]" started-at="2023-10-30T10:21:35Z" name="TesNg2" finished-at="2023-10-30T10:21:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TesNg2 -->
+        <test-method signature="TesNg3()[pri:3, instance:TestNGG.NewTestTestNG@424e1977]" started-at="2023-10-30T10:21:35Z" name="TesNg3" finished-at="2023-10-30T10:21:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TesNg3 -->
+      </class> <!-- TestNGG.NewTestTestNG -->
+      <class name="Common.NewTest">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:Common.NewTest@4988d8b8]" started-at="2023-10-30T10:21:35Z" name="beforeSuite" finished-at="2023-10-30T10:21:35Z" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdss]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Common.NewTest@4988d8b8]" started-at="2023-10-30T10:21:35Z" name="afterSuite" finished-at="2023-10-30T10:21:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Common.NewTest -->
+    </test> <!-- TestNGG -->
+  </suite> <!-- Suite -->
+</testng-results>

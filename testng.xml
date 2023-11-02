@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	  <parameter name="Browser" value="abcdss"></parameter>
+	
+	
+	
+  <test thread-count="5" name="Common">
+	   <parameter name="Browser" value="abcds"></parameter>
+    <classes>
+      <class name="Common.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Module1">
+    <classes>
+      <class name="Module1.Test1">
+      
+      </class>
+      <class name="Module1.SampleTest2">
+      
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="TestNGG">
+    <classes>
+      <class name="TestNGG.NewTestTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
